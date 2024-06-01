@@ -1,0 +1,16 @@
+spring: 
+  datasource:
+    username: inventory_tracker
+    password: inventory_tracker
+    url: jdbc:mysql://localhost:3306/inventory_tracker
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    defer-datasource-initialization: true
+  
+    
+  sql:
+      init:
+         mode: never
