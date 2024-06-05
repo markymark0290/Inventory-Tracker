@@ -98,7 +98,7 @@ public class InvTrackService {
 					+ " for your order");
 		}
 		
-		//sets the fields in te
+		//adds orders to the entities
 		setFieldsInOrders(order, storeOrders);
 		Set<Orders> orders = new HashSet<>(); 
 		orders.add(order);
